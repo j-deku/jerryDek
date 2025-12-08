@@ -22,9 +22,9 @@ messaging.onBackgroundMessage((payload) => {
   const notificationTitle = payload.data?.title || payload.notification.title;
   const notificationOptions = {
     body: payload.data?.body || payload.notification.body,
-    icon: '/push_notification_icon.png',
-    badge: '/badge_icon.png',
-    image: "/CarRent.jpeg",
+    icon: 'push_notification_icon.png',
+    badge: 'badge_icon.png',
+    image: "CarRent.jpeg",
     requireInteraction: true, // Keep notification visible until interaction
     tag: payload.data?.tag || 'transbook-notification',
     renotify: true,
@@ -70,7 +70,7 @@ self.addEventListener('notificationclick', (event) => {
   event.notification.close();
 
   // Determine URL to open (default to homepage if not provided)
-  const urlToOpen = event.notification.data?.url || '/';
+  const urlToOpen = event.notification.data?.url || '/jerryDek/';
 
   event.waitUntil(
     self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {

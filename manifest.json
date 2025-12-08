@@ -44,7 +44,7 @@
       "purpose":"any"
     },
     {
-      "src": "/JD-logo-512.png",
+      "src": "JD-logo-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose":"any"
@@ -59,7 +59,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "animation":"pulse",
-  "scope":"/jerryDek/",
+  "scope":"/",
   "protocol_handlers":[
     {
       "protocol":"web+JeremiahDeku",
