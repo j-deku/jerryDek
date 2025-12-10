@@ -1,0 +1,17 @@
+{
+    "navbar": {
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About",
+      "contactUs": "Contact Us",
+      "signIn": "Sign In",
+      "profile": "Profile Details",
+      "notifications": "Notifications",
+      "logout": "Logout",
+      "welcome": "Welcome",
+      "search" : "Search",
+      "changeTheme": "Change Theme",
+      "language": "Language"
+    }
+  }
+  

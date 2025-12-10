@@ -1,0 +1,25 @@
+{
+  "_vendor-Bh76j7cs.css": {
+    "file": "assets/vendor-Bh76j7cs.css",
+    "src": "_vendor-Bh76j7cs.css"
+  },
+  "_vendor-VWgwjs_v.js": {
+    "file": "assets/vendor-VWgwjs_v.js",
+    "name": "vendor",
+    "css": [
+      "assets/vendor-Bh76j7cs.css"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-BdLpIPE0.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-VWgwjs_v.js"
+    ],
+    "css": [
+      "assets/index-Cz_z0Utg.css"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "about": "A propos",
+    "contactUs": "Contactez-nous",
+    "signIn": "Se connecter",
+    "profile": "Détails du profil",
+    "notifications": "Notifications",
+    "bookings": "Réservations",
+    "logout": "Se déconnecter",
+    "welcome": "Bienvenue",
+    "search" : "Rechercher",
+    "changeTheme": "Changer de thème",
+    "language": "Langue"
+  },
+  "home": {
+    "welcomeMessage": "Bienvenue sur la meilleure application de réservation de transport"
+  }
+}
