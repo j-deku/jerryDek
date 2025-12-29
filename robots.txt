@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://j-deku.github.io/jerryDek/sitemap.xml
